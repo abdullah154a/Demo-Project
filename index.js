@@ -25,5 +25,5 @@ function divide(number1, number2) {
 }
 
 function power(base, power) {
-    return base ** power
+    return base * power
 }
