@@ -4,6 +4,7 @@ module.exports.subtract = subtract;
 module.exports.divide = divide;
 module.exports.power = power;
 module.exports.factorial = factorial;
+module.exports.modolo = modolo;
 
 function add(...number) {
     let sum = 0;
@@ -36,4 +37,8 @@ function factorial(number) {
         sum *= i
     }
     return sum
+}
+
+function modolo(number1, number2) {
+	return number1 % number2;
 }

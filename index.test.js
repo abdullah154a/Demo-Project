@@ -1,4 +1,4 @@
-const {add, multiply, subtract, divide, power, factorial} = require("./")
+const {add, multiply, subtract, divide, power, factorial, modolo} = require("./")
 
 test('adding', () => {
     expect(add(2, 3)).toBe(5);
@@ -22,4 +22,8 @@ test('power', () => {
 
 test('factorial', () => {
     expect(factorial(4)).toBe(24);
+});
+
+test('modolo', () => {
+    expect(modolo(10, 3)).toBe(1); 
 });
