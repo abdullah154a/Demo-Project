@@ -33,7 +33,7 @@ function power(base, power) {
 function factorial(number) {
     sum = 1
     for (let i = number; i > 0 ; i--) {
-        sum += i
+        sum *= i
     }
     return sum
 }
