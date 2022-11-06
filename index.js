@@ -42,3 +42,10 @@ function factorial(number) {
 function modolo(number1, number2) {
 	return number1 % number2;
 }
+
+function check_odd_number(number) {
+    if (number % 2 != 0) {
+        return true
+    }
+    return false
+}
