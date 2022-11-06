@@ -46,6 +46,6 @@ function modolo(number1, number2) {
 
 function even(number) {
 	if(number % 2 == 0) {
-    return "Even"
+    return "even"
 }
 }
