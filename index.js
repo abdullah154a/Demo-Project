@@ -6,6 +6,7 @@ module.exports.power = power;
 module.exports.factorial = factorial;
 module.exports.modolo = modolo;
 module.exports.check_odd_number = check_odd_number;
+module.exports.even = even;
 
 function add(...number) {
     let sum = 0;
@@ -49,4 +50,10 @@ function check_odd_number(number) {
         return true
     }
     return false
+}
+
+function even(number) {
+	if(number % 2 == 0) {
+    return "even"
+}
 }
