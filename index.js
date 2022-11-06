@@ -5,6 +5,7 @@ module.exports.divide = divide;
 module.exports.power = power;
 module.exports.factorial = factorial;
 module.exports.modolo = modolo;
+module.exports.even = even;
 
 function add(...number) {
     let sum = 0;
@@ -41,4 +42,10 @@ function factorial(number) {
 
 function modolo(number1, number2) {
 	return number1 % number2;
+}
+
+function even(number) {
+	if(number % 2 == 0) {
+    return "even"
+}
 }
