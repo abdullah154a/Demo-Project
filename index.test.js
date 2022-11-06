@@ -29,7 +29,7 @@ test('modolo', () => {
 });
 
 test('check_odd_number', () => {
-    expect(check_odd_number(1)).toBe(true));
+    expect(check_odd_number(1)).toBe(true);
 });
 
 test('even', () => {
