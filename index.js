@@ -5,6 +5,7 @@ module.exports.divide = divide;
 module.exports.power = power;
 module.exports.factorial = factorial;
 module.exports.modolo = modolo;
+module.exports.check_odd_number = check_odd_number;
 module.exports.even = even;
 
 function add(...number) {
@@ -42,6 +43,13 @@ function factorial(number) {
 
 function modolo(number1, number2) {
 	return number1 % number2;
+}
+
+function check_odd_number(number) {
+    if (number % 2 != 0) {
+        return true
+    }
+    return false
 }
 
 function even(number) {
