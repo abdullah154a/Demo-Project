@@ -5,6 +5,7 @@ module.exports.divide = divide;
 module.exports.power = power;
 module.exports.factorial = factorial;
 module.exports.modolo = modolo;
+module.exports.check_odd_number = check_odd_number;
 
 function add(...number) {
     let sum = 0;
