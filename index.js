@@ -7,6 +7,7 @@ module.exports.factorial = factorial;
 module.exports.modolo = modolo;
 module.exports.check_odd_number = check_odd_number;
 module.exports.even = even;
+module.exports.isEqual = isEqual;
 
 function add(...number) {
     let sum = 0;
@@ -54,6 +55,13 @@ function check_odd_number(number) {
 
 function even(number) {
 	if(number % 2 == 0) {
-    return "even"
+		return "even"
+	}
 }
+
+function isEqual(number1, number2) {
+	if(number1 == number2) {
+		return true
+	}
+	return false
 }
