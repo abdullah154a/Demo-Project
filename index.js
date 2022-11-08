@@ -9,7 +9,7 @@ module.exports.check_odd_number = check_odd_number;
 module.exports.even = even;
 
 function add(...number) {
-    let sum = 1;
+    let sum = 0;
     number.forEach(x => sum += x);
     return sum;
 }
@@ -54,6 +54,6 @@ function check_odd_number(number) {
 
 function even(number) {
 	if(number % 2 == 0) {
-    return "even"
-}
+		return "even"
+	}
 }
